@@ -1,3 +1,4 @@
-# My Awesome Book
+# The PhenixPro Flight Controller DevKit
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+The PhenixPro DevKit is an intelligent mobile robot control, computing and networking platform. It's integrated in a Xilinx Zynq SoC, with dual core ARM Cortex-A9 CPU and FPGA fabric on a signal chip. It is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. Attitude estimation, flight control, navigation are implemented by ArduPilot\(http://ardupilot.org\). So far, it only support quadcopter\(we call it flying robot\).
+
