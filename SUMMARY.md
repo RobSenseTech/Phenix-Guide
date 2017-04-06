@@ -1,13 +1,10 @@
 # Summary
 
-
-
 ```
 * [Introduction](README.md)
 ```
 
 ```
-
 * [Your First Flight](chapter1/README.md)
 
  - [Purchase a DevKit](chapter1/Purchase a DevKit.md)
