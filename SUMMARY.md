@@ -10,11 +10,10 @@
   * [Program the controller](chapter1/Program the controller.md)
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
 * [Develop your application](chapter2/README.md)
-  * [First 'Hello World'](chapter2/Hello World.md)
+  * [Hello World](chapter2/Hello World.md)
   * [Hardware Insight](chapter2/Hardware/README.md)
     * [Zynq Soc](chapter2/Hardware/Zynq Soc.md)
     * [PS](chapter2/Hardware/PS.md)
     * [PL](chapter2/Hardware/PL.md)
   * [Software Insight](chapter2/Software Insight.md)
   * [Register a Developer Account](chapter2/Register a Developer Account.md)
-
