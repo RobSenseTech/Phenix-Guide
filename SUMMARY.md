@@ -16,5 +16,5 @@
     * [PS](chapter2/Hardware/PS.md)
     * [PL](chapter2/Hardware/PL.md)
   * [Software Insight](chapter2/Software Insight.md)
-  * [Register a Developer Account](chapter1/Register a Developer Account.md)
+  * [Register a Developer Account](chapter2/Register a Developer Account.md)
 
