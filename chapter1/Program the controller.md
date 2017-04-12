@@ -1,4 +1,6 @@
-## 2.Boot
+[TOC]
+
+## 1.Boot
 
 Devkit support boot from sd card, copy these file to sd card:
 
@@ -13,7 +15,7 @@ set DIP switch like the image below(it means boot from sd card):
 
 ![webwxgetmsgimg](images/boot mode.jpg)
 
-## 3.Connect UAV Components
+## 2.Connect UAV Components
 
 ![devkit](images/devkit.jpg)
 
