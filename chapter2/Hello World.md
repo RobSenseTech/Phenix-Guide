@@ -423,7 +423,7 @@ make ARCH=arm UIMAGE_LOADADDR=0x8000 uImage -j8
 
 We use zedboard devicetree as our default(linux-xlnx/arch/arm/boot/dts/zynq-zed.dts), like steps in u-boot, modify memory section:
 
-![Screenshot from 2017-03-15 14-40-18](Screenshot from 2017-03-15 14-40-18.png)
+![Screenshot from 2017-03-15 14-40-18](images/Screenshot from 2017-03-15 14-40-18.png)
 
 generate dtb file with command
 
@@ -457,7 +457,7 @@ mkimage -A arm -T ramdisk -C gzip -n Ramdisk -d ramdisk.image.gz uramdisk.image.
 
 This is the last step, let's go back to SDK, select **Xilinx Tools->Create Zynq Boot Image**, add fsbl.elf(chapter 3.3), bit file(chapter 2.3), u-boot.elf(chapter 3.5), hello_world.elf(chapter 3.4), click **Create Image**:
 
-![Screenshot from 2017-03-15 17-03-51](Screenshot from 2017-03-15 17-03-51.png)
+![Screenshot from 2017-03-15 17-03-51](images/Screenshot from 2017-03-15 17-03-51.png)
 
 now, you can find BOOT.bin file in your workspace directory
 
