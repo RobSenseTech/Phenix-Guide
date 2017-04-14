@@ -8,7 +8,7 @@
   * [Build the Firmware](chapter1/Build the Firmware.md)
   * [Program the controller](chapter1/Program the controller.md)
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
-  * [Constraints](chapter1/Constraints.md)
+  * [Release Note](chapter1/Release Note.md)
   * [Become a Developer](chapter1/Become a Developer.md)
 
 * [Basis of SW/HW co-design with DevKit](chapter2/README.md)
