@@ -9,6 +9,7 @@
   * [Program the controller](chapter1/Program the controller.md)
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
   * [Constraints](chapter1/Constraints.md)
+  * [Register a Developer Account](chapter1/Register a Developer Account.md)
 
 * [Basis of SW/HW co-design with DevKit](chapter2/README.md)
   * [Toolchain](chapter2/Toolchain/README.md)
@@ -20,7 +21,6 @@
     * [PS](chapter2/Hardware/PS.md)
     * [PL](chapter2/Hardware/PL.md)
   * [Software Insight](chapter2/Software Insight.md)
-  * [Register a Developer Account](chapter2/Register a Developer Account.md)
 
 * [Robotics Control Stack Development](chapter3/README.md)
   * [Unmanned Aerial Vehicle Control](chapter3/Unmanned Aerial Vehicle Control/README.md)
