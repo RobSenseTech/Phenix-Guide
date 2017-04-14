@@ -1,7 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
-* [Your First Flight](chapter1/README.md)
+* [Introduction of PhenixPro Devkit](README.md)
+* [Your First Flight With PhenixPro Devkit](chapter1/README.md)
   * [Purchase a DevKit](chapter1/Purchase a DevKit.md)
   * [Build your Quadcopter](chapter1/Build your Quadcopter.md)
   * [Download the codebase](chapter1/Download the codebase.md)
@@ -9,7 +9,8 @@
   * [Program the controller](chapter1/Program the controller.md)
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
   * [Constraints](chapter1/Constraints.md)
-* [Develop your application](chapter2/README.md)
+
+* [Basis of SW/HW co-design with DevKit](chapter2/README.md)
   * [Toolchain](chapter2/Toolchain/README.md)
     * [Install Ubuntu](chapter2/Toolchain/Install Ubuntu.md)
     * [Install Xilinx Vivado](chapter2/Toolchain/Install Xilinx Vivado.md)
@@ -20,3 +21,15 @@
     * [PL](chapter2/Hardware/PL.md)
   * [Software Insight](chapter2/Software Insight.md)
   * [Register a Developer Account](chapter2/Register a Developer Account.md)
+
+* [Robotics Control Stack Development](chapter3/README.md)
+  * [Unmanned Aerial Vehicle Control](chapter3/Unmanned Aerial Vehicle Control/README.md)
+  * [Unmanned Ground Vehicle Control](chapter3/Unmanned Ground Vehicle Control/README.md)
+  * [Unmanned Underwater Vehicle Control](chapter3/Unmanned Underwater Vehicle Control/README.md)
+  * [Unmanned Boat Control](chapter3/Unmanned Boat Control/README.md)
+
+* [Robotics Intelligence and IoT](chapter3/README.md)
+  * [Machine Vision](chapter4/Machine Vision/README.md)
+  * [Communication](chapter4/Communication/README.md)
+  [Machine Learning](chapter4/Machine Learning/README.md)
+  [Edge Computing](chapter4/Edge Computing/README.md) 
