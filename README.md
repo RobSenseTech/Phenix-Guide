@@ -7,4 +7,4 @@ The PhenixPro DevKit is an intelligent mobile robot control, computing and netwo
 - and hosting on github: [https://github.com/RobSenseTech/DevKit-gitbook.git](https://github.com/RobSenseTech/DevKit-gitbook.git), so developers can contribute to edit and push modifications.
 - Developers can push questions to DevKit user forum at: [http://dev.robsense.com](http://dev.robsense.com)
 
-![](/assets/mmexport14.png)
+![](images/mmexport14.png)
