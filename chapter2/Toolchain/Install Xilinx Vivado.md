@@ -96,7 +96,9 @@ after this, we need to load the license:
 
 click "Load License" and "Copy License" (You can find lic file in firmware path [phenix_devkit path]/amp_system/)
 
+<div align=center>
 ![Screenshot from 2017-03-13 16-23-26](../images/vivado/Screenshot from 2017-03-13 16-23-26.png)
+</div>
 
 select your license and click open.
 
@@ -171,9 +173,11 @@ Categories=System;
 
 **When launch SDK in Dash, it shows this error, it means you have to launch sdk with shell command "xsdk", otherwise, you may find that you can't close SDK**:
 
-**![Screenshot from 2017-03-14 17-02-33](../images/Screenshot from 2017-03-14 17-02-33.png)**
+<div align=center>
+![Screenshot from 2017-03-14 17-02-33](../images/Screenshot from 2017-03-14 17-02-33.png)
+</div>
 
-**If you launch SDK in terminal with command "xsdk", and there is nothing happen, but show information below:**
+**If you launch SDK in terminal with command "xsdk", and there nothing happens, but shows information as follow:**
 
 ```
 ****** Xilinx Software Development Kit
@@ -193,6 +197,7 @@ Launching SDK with command /opt/Xilinx/SDK/2016.4/eclipse/lnx64.o/eclipse -vmarg
 
 **just like this:**
 
+<div align=center>
 ![Screenshot from 2017-03-15 00-25-33](../images/vivado/Screenshot from 2017-03-15 00-25-33.png)
-
+</div>
 ****
