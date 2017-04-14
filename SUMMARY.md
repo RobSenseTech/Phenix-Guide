@@ -22,11 +22,11 @@
     * [PL](chapter2/Hardware/PL.md)
   * [Software Insight](chapter2/Software Insight.md)
 
-* [Robotics Control Stack](chapter3/README.md)
-  * [Unmanned Aerial Vehicle Control](chapter3/Unmanned Aerial Vehicle Control/README.md)
-  * [Unmanned Ground Vehicle Control](chapter3/Unmanned Ground Vehicle Control/README.md)
-  * [Unmanned Underwater Vehicle Control](chapter3/Unmanned Underwater Vehicle Control/README.md)
-  * [Unmanned Boat Control](chapter3/Unmanned Boat Control/README.md)
+* [Robotics Control Stacks](chapter3/README.md)
+  * [Unmanned Aerial Vehicle](chapter3/Unmanned Aerial Vehicle Control/README.md)
+  * [Unmanned Ground Vehicle](chapter3/Unmanned Ground Vehicle Control/README.md)
+  * [Unmanned Underwater Vehicle](chapter3/Unmanned Underwater Vehicle Control/README.md)
+  * [Unmanned Boat](chapter3/Unmanned Boat Control/README.md)
 
 * [Robotics Intelligence and IoT ](chapter3/README.md)
   * [Machine Vision](chapter4/Machine Vision/README.md)

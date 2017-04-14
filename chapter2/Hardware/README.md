@@ -16,7 +16,7 @@
 ![GH connector](../images/HW/GH.jpg)
 </div>
 
-[The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.]()
+The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.
 
 
 ## 1.2. POWER
