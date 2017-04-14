@@ -8,6 +8,7 @@
   * [Build the Firmware](chapter1/Build the Firmware.md)
   * [Program the controller](chapter1/Program the controller.md)
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
+  * [Constraints](chapter1/Constraints.md)
 * [Develop your application](chapter2/README.md)
   * [Toolchain](chapter2/Toolchain/README.md)
     * [Install Ubuntu](chapter2/Toolchain/Install Ubuntu.md)

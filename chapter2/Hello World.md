@@ -8,7 +8,7 @@ After installing Vivado, the installation directory will contain a folder called
 
 XML files define different interfaces on the board. Interfaces such as UART, DDR Memory, Ethernet etc. For example, we use IP core AXI UART16550, but it has 14pins by default, there are only 2 pins in our devkit for uart, so we have to custom the interface of the IP core through XML. After installing board interface file, we will be able to assign different inerfaces that are available on your selected board to a specific IP block:
 
-![Screenshot from 2017-03-20 11-22-15](images/Screenshot from 2017-03-20 11-22-15.png)
+![Screenshot from 2017-03-20 11-22-15](images/hello world/Screenshot from 2017-03-20 11-22-15.png)
 
 Robsense has written these XML files, they are stored in our firmware project, all you need is just get it from github, and copy then into path **board_files**:
 
@@ -28,25 +28,25 @@ sudo cp vivado_prj/phenix_devkit [Vivado Install Dir]/Vivado/2016.4/data/boards/
 
 Open Vivadio and click "Create New Project", input project name, and click Next
 
-![Screenshot from 2017-03-13 18-18-21](images/Screenshot from 2017-03-13 18-18-21.png)
+![Screenshot from 2017-03-13 18-18-21](images/hello world/Screenshot from 2017-03-13 18-18-21.png)
 
 select "RTL Project"
 
-![Screenshot from 2017-03-13 18-20-01](images/Screenshot from 2017-03-13 18-20-01.png)
+![Screenshot from 2017-03-13 18-20-01](images/hello world/Screenshot from 2017-03-13 18-20-01.png)
 
 click Next until the UI below
 
-![Screenshot from 2017-03-13 18-42-46](images/Screenshot from 2017-03-13 18-42-46.png)
+![Screenshot from 2017-03-13 18-42-46](images/hello world/Screenshot from 2017-03-13 18-42-46.png)
 
 click **Boards **find Phenix Pro Devkit, click Next and then click finish:
 
 **Note:** If you can't find Phenix Pro Devkit, please make sure that you installed board interface files right in section 2.1
 
-![Screenshot from 2017-03-20 11-12-12](images/Screenshot from 2017-03-20 11-12-12.png)
+![Screenshot from 2017-03-20 11-12-12](images/hello world/Screenshot from 2017-03-20 11-12-12.png)
 
 click "Create Block Design", input design name, and click "OK"
 
-![Screenshot from 2017-03-13 18-45-01](images/Screenshot from 2017-03-13 18-45-01.png)
+![Screenshot from 2017-03-13 18-45-01](images/hello world/Screenshot from 2017-03-13 18-45-01.png)
 
 
 
@@ -54,28 +54,28 @@ click "Create Block Design", input design name, and click "OK"
 
 Now we have a empty design, let's add IP to it
 
-![Screenshot from 2017-03-13 18-50-19](images/Screenshot from 2017-03-13 18-50-19.png)
+![Screenshot from 2017-03-13 18-50-19](images/hello world/Screenshot from 2017-03-13 18-50-19.png)
 
-click ![Screenshot from 2017-03-13 18-51-36](images/Screenshot from 2017-03-13 18-51-36.png)and input zynq to search "ZYNQ Processing System",  double click to add it to our design, and click **Run Block Automation**, Vivado will configure PS core with board interface files which we installed int 2.1![Screenshot from 2017-03-13 18-55-06](images/Screenshot from 2017-03-13 18-55-06.png)
+click ![Screenshot from 2017-03-13 18-51-36](images/hello world/Screenshot from 2017-03-13 18-51-36.png)and input zynq to search "ZYNQ Processing System",  double click to add it to our design, and click **Run Block Automation**, Vivado will configure PS core with board interface files which we installed int 2.1![Screenshot from 2017-03-13 18-55-06](images/hello world/Screenshot from 2017-03-13 18-55-06.png)
 
 now, the PS core should be like this :
 
-![Screenshot from 2017-03-20 11-18-22](images/Screenshot from 2017-03-20 11-18-22.png)
+![Screenshot from 2017-03-20 11-18-22](images/hello world/Screenshot from 2017-03-20 11-18-22.png)
 
 connect an input signal for AXI, like the image below:
 
-![Screenshot from 2017-03-20 11-20-49](images/Screenshot from 2017-03-20 11-20-49.png)
+![Screenshot from 2017-03-20 11-20-49](images/hello world/Screenshot from 2017-03-20 11-20-49.png)
 
 Now, we've created our PS within the IPI block, next, we need to create an HDL wrapper for the Vivado synthesizer knows what to do with our IP block
 
-![Screenshot from 2017-03-13 19-48-02](images/Screenshot from 2017-03-13 19-48-02.png)
+![Screenshot from 2017-03-13 19-48-02](images/hello world/Screenshot from 2017-03-13 19-48-02.png)
 
-right mouse click ![Screenshot from 2017-03-13 19-49-26](images/Screenshot from 2017-03-13 19-49-26.png)and select "Create HDL Wrapper",This will generate a HDL wrapper that the Vivado synthesizer understands.  Once this happens, we are ready to generate our bitfile. This might sound like a large jump, but there isn't anything else in our design - it's almost entirely PS (the only PL portion is that AXI
+right mouse click ![Screenshot from 2017-03-13 19-49-26](images/hello world/Screenshot from 2017-03-13 19-49-26.png)and select "Create HDL Wrapper",This will generate a HDL wrapper that the Vivado synthesizer understands.  Once this happens, we are ready to generate our bitfile. This might sound like a large jump, but there isn't anything else in our design - it's almost entirely PS (the only PL portion is that AXI
 port support logic).
 
-next, we need to set "Top moudule name", click "Synthesis Settings"![Screenshot from 2017-03-14 10-46-20](images/Screenshot from 2017-03-14 10-46-20.png)and "..."button, select phenix_devkit_wrapper:
+next, we need to set "Top moudule name", click "Synthesis Settings"![Screenshot from 2017-03-14 10-46-20](images/hello world/Screenshot from 2017-03-14 10-46-20.png)and "..."button, select phenix_devkit_wrapper:
 
-![Screenshot from 2017-03-14 14-38-02](images/Screenshot from 2017-03-14 14-38-02.png)
+![Screenshot from 2017-03-14 14-38-02](images/hello world/Screenshot from 2017-03-14 14-38-02.png)
 
 At last, click "Run Synthesis", "Run Implementation" and "Generate Bitstream" to generate PL program
 
@@ -83,7 +83,7 @@ At last, click "Run Synthesis", "Run Implementation" and "Generate Bitstream" to
 
 If we want to develop on PS with Xilinx SDK, we need to tell SDK how our hardware looks like, which is the usage of the hdf file. Exporting hdf file is quite simple, just click **File->Export->Export Hardware**, and choose the path you want to store the hdf file(don't forget include bitstream file):
 
-![Screenshot from 2017-03-14 15-54-04](images/Screenshot from 2017-03-14 15-54-04.png)
+![Screenshot from 2017-03-14 15-54-04](images/hello world/Screenshot from 2017-03-14 15-54-04.png)
 
 now, we can launch SDK to generate FSBL and BSP(chapter 3.3,3.4)
 
@@ -97,7 +97,7 @@ The most important thing is that two cpu should run in different DDR physical ad
 
 Simply put, the principle of Amp system in zynq is cpu0 wake up cpu1, now, let't see how it works:
 
-![Screenshot from 2017-03-20 13-38-38](images/Screenshot from 2017-03-20 13-38-38.png)
+![Screenshot from 2017-03-20 13-38-38](images/hello world/Screenshot from 2017-03-20 13-38-38.png)
 
 Cpu0 start first, at the same time, cpu1 running a little piece of code which have been loaded from bootrom to ocm(on chip memory), it watching the value of 0xfffffff0 adress. after linux startup, it will write the code segment first address of cpu1 app into 0xfffffff0. Once cpu1 realize the value is changed to nonzero, then the pc pointer of cpu1 will jump to the adress which is written at 0xfffffff0, this is how the whole system startup.
 
@@ -107,25 +107,25 @@ First of all, download xapp1078.zip from https://www.xilinx.com/search/site-keyw
 
 Now, open Xilinx SDK, indicate a dirctory as workspace and click OK:
 
-![Screenshot from 2017-03-14 16-48-32](images/Screenshot from 2017-03-14 16-48-32.png)
+![Screenshot from 2017-03-14 16-48-32](images/hello world/Screenshot from 2017-03-14 16-48-32.png)
 
 Select **Xilinx_tools > Repositories**
 
-![Screenshot from 2017-03-15 10-14-40](images/Screenshot from 2017-03-15 10-14-40.png)
+![Screenshot from 2017-03-15 10-14-40](images/hello world/Screenshot from 2017-03-15 10-14-40.png)
 
 select **New** and Browse to and select the directory design\src\sdk_repo, select **OK**
 
-![Screenshot from 2017-03-15 10-16-55](images/Screenshot from 2017-03-15 10-16-55.png)
+![Screenshot from 2017-03-15 10-16-55](images/hello world/Screenshot from 2017-03-15 10-16-55.png)
 
 ### 2.3 Create FSBL Application
 
 Select **File > New > Application_Project**
 
-![Screenshot from 2017-03-15 10-30-11](images/Screenshot from 2017-03-15 10-30-11.png)
+![Screenshot from 2017-03-15 10-30-11](images/hello world/Screenshot from 2017-03-15 10-30-11.png)
 
 select **New...** button to indicate the hdf file, click **Finish** and **Next**
 
-![Screenshot from 2017-03-15 10-31-51](images/Screenshot from 2017-03-15 10-31-51.png)
+![Screenshot from 2017-03-15 10-31-51](images/hello world/Screenshot from 2017-03-15 10-31-51.png)
 
 select **Zynq FSBL** and click **Finish**
 
@@ -140,21 +140,21 @@ loads the applications to DDR memory.
 
 First we need to create the BSP for cpu1, select **File > New > Board_Support_Package**. Change CPU to **ps7\_cortexa9\_1** and click **Finish**
 
-![Screenshot from 2017-03-15 11-26-33](images/Screenshot from 2017-03-15 11-26-33.png)
+![Screenshot from 2017-03-15 11-26-33](images/hello world/Screenshot from 2017-03-15 11-26-33.png)
 
-in the Board Support Package settings, select **overview > standalone** and change both stdin and stdout to **ps7\_uart\_1**![Screenshot from 2017-03-15 13-25-28](images/Screenshot from 2017-03-15 13-25-28.png)
+in the Board Support Package settings, select **overview > standalone** and change both stdin and stdout to **ps7\_uart\_1**![Screenshot from 2017-03-15 13-25-28](images/hello world/Screenshot from 2017-03-15 13-25-28.png)
 
 select **Overview > drivers > cpu_cortexa9\_1** and add **-DUSE_AMP=1** to extra_compiler_flags
 
-![Screenshot from 2017-03-15 13-28-40](images/Screenshot from 2017-03-15 13-28-40.png)
+![Screenshot from 2017-03-15 13-28-40](images/hello world/Screenshot from 2017-03-15 13-28-40.png)
 
 ​	Now, we can create bare_metal application, select **File > New > Application Project**, set like image below, and click **Finish**:
 
-![Screenshot from 2017-03-15 13-35-45](images/Screenshot from 2017-03-15 13-35-45.png)
+![Screenshot from 2017-03-15 13-35-45](images/hello world/Screenshot from 2017-03-15 13-35-45.png)
 
 change the code to a while cycle:
 
-![Screenshot from 2017-03-15 13-46-22](images/Screenshot from 2017-03-15 13-46-22.png)
+![Screenshot from 2017-03-15 13-46-22](images/hello world/Screenshot from 2017-03-15 13-46-22.png)
 
 here comes the most important part: modify **ld.scrip** to tell gcc the first address of the code segment 0x1A000000, which we have discussed at the beginning of this chapter. So let's open **ld.script**, and change **ps7\_ddr\_0\_S\_AXI\_BASEADDR** as 0x1A000000, **Size** as 0x1FF00000, **Stack Size** as 0x800000(8MB), **Heap Size** as 0x1000000(16MB), now, we can complie our code.
 
@@ -172,7 +172,7 @@ As the same with bare-metal application on cpu1, u-boot also need to configure D
 
 - modify memory section in devicetree (u-boot-xlnx/arch/arm/dts/zynq-zed.dts):
 
-  ![Screenshot from 2017-03-15 14-23-34](images/Screenshot from 2017-03-15 14-23-34.png)
+  ![Screenshot from 2017-03-15 14-23-34](images/hello world/Screenshot from 2017-03-15 14-23-34.png)
 
 make the configuration effective:
 
@@ -224,7 +224,7 @@ make ARCH=arm UIMAGE_LOADADDR=0x8000 uImage -j8
 
 We use zedboard devicetree as our default(linux-xlnx/arch/arm/boot/dts/zynq-zed.dts), like steps in u-boot, modify memory section:
 
-![Screenshot from 2017-03-15 14-40-18](images/Screenshot from 2017-03-15 14-40-18.png)
+![Screenshot from 2017-03-15 14-40-18](images/hello world/Screenshot from 2017-03-15 14-40-18.png)
 
 generate dtb file with command
 
@@ -258,7 +258,7 @@ mkimage -A arm -T ramdisk -C gzip -n Ramdisk -d ramdisk.image.gz uramdisk.image.
 
 This is the last step, let's go back to SDK, select **Xilinx Tools->Create Zynq Boot Image**, add fsbl.elf(chapter 3.3), bit file(chapter 2.3), u-boot.elf(chapter 3.5), hello_world.elf(chapter 3.4), click **Create Image**:
 
-![Screenshot from 2017-03-15 17-03-51](images/Screenshot from 2017-03-15 17-03-51.png)
+![Screenshot from 2017-03-15 17-03-51](images/hello world/Screenshot from 2017-03-15 17-03-51.png)
 
 now, you can find BOOT.bin file in your workspace directory
 
@@ -266,7 +266,7 @@ now, you can find BOOT.bin file in your workspace directory
 
 Copy BOOT.bin, uImage, devicetree.dtb, and arm_ramdisk.image.gz to SD card, connect usb console, baudrate 115200, set devkit as SD card boot with DIP switch:
 
-![webwxgetmsgimg](images/webwxgetmsgimg.jpg)
+![webwxgetmsgimg](images/hello world/webwxgetmsgimg.jpg)
 
 power-on devkit.
 
@@ -278,4 +278,4 @@ set bootargs 'console=ttyPS0,115200 maxcpus=1 root=/dev/ram rw earlyprintk'
 
 After linux boot-up, input command below to terminal, you will see "hello world" print:
 
-![Screenshot from 2017-03-15 18-20-28](images/Screenshot from 2017-03-15 18-20-28.png)
+![Screenshot from 2017-03-15 18-20-28](images/hello world/Screenshot from 2017-03-15 18-20-28.png)

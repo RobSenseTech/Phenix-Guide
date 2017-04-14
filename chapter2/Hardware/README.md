@@ -4,19 +4,10 @@
 
 ## [1.1.GH connector pin sequence description]()
 
-
-
 [The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.]()
 
 
-
 ## [1.2.POWER]()
-
-
-
-
-
-
 
 | Pin | Definition | Notes |
 | :--- | :--- | :--- |
@@ -26,8 +17,6 @@
 | 4 | Voltage Detect |  |
 | 5 | GND |  |
 | 6 | GND |  |
-
-
 
 ## [1.3.JTAG]()
 
@@ -43,8 +32,6 @@ PhenixPRO provides JTAG debugging interface, using 7Pin GH connector, pin defini
 | 6 | VDD3V3 |  |
 | 7 | RST |  |
 
-
-
 ## [1.4.IIC]()
 
 PhenixPRO provides an IIC expansion interface, using 4Pin GH connector, the pin is defined as follows:
@@ -55,8 +42,6 @@ PhenixPRO provides an IIC expansion interface, using 4Pin GH connector, the pin 
 | 2 | PS\_IIC0\_SCL | 3.3V logic level |
 | 3 | PS\_IIC0\_SDA | 3.3V logic level |
 | 4 | GND |  |
-
-
 
 ## [1.5.SPI]()
 
@@ -71,8 +56,6 @@ PhenixPRO provides a SPI expansion interface, using 6Pin GH connector, the pin i
 | 5 | PS\_SPI1\_SS0 | 3.3V logic level |
 | 6 | GND |  |
 
-
-
 ## [1.6.Data Radio]()
 
 PhenixPRO provides a data radio interface, using UART communication, 4Pin GH connector, pin is defined as follows:
@@ -84,14 +67,9 @@ PhenixPRO provides a data radio interface, using UART communication, 4Pin GH con
 | 3 | UART\_RX | PL\_Bank35\_6P，3.3V logic level |
 | 4 | GND |  |
 
-
-
 ## [1.7.UART]()
 
 PhenixPRO provides two UART expansion interfaces, using 4Pin GH connector, the pin is defined as follows:
-
-
-
 
 
 UART1：
@@ -114,8 +92,6 @@ UART2：
 | 3 | UART2\_RX | PL\_Bank34\_1P，3.3V logic level |
 | 4 | GND |  |
 
-
-
 ## [1.8.CAN]()
 
 PhenixPRO provides a CAN expansion interface, using 4Pin GH connector, the pin is defined as follows:
@@ -126,7 +102,6 @@ PhenixPRO provides a CAN expansion interface, using 4Pin GH connector, the pin i
 | 2 | PS\_CAN0\_H |  |
 | 3 | PS\_CAN0\_L |  |
 | 4 | GND |  |
-
 
 
 ## [1.9.GPS]()
@@ -144,19 +119,14 @@ PhenixPRO provides all the way GPS expansion interface, the interface uses the U
 | 6 | GND |  |
 
 
-
 ## [1.10.PWM Electronic Governor]()
 
 [PhenixPRO provides eight-way PWM form of electrical governor interface, unified use of 2.54mm pitch header. Each PWM pin is defined as follows:]()
 
 
-
 ## [1.11.SBUS]()
 
 PhenixPRO provides a SBUS input, a SBUS output interface, using 2.54mm pin spacing leads. Specific definitions are as follows:
-
-
-
 
 
 ## [1.12.Console]()
@@ -171,11 +141,9 @@ PhenixPRO provides a console interface for printing program running information.
 | 4 | GND |  |
 
 
-
 ## [1.13.BOOT mode configuration switch]()
 
 PhenixPRO provides a switch for configuring the BOOTmode. Defined as follows:
-
 
 
 | Pin | Definition | Notes |
@@ -188,10 +156,4 @@ PhenixPRO provides a switch for configuring the BOOTmode. Defined as follows:
 | 6 | BOOT\_MODE\[4\] |  |
 
 
-
 Specific configuration information see below, the board currently supports SD card to start.
-
-
-
-
-

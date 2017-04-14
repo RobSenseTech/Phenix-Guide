@@ -64,39 +64,39 @@ sudo ./xsetup
 
 click Next
 
-![Screenshot from 2017-03-13 15-47-10](../images/Screenshot from 2017-03-13 15-47-10.png)
+![Screenshot from 2017-03-13 15-47-10](../images/vivado/Screenshot from 2017-03-13 15-47-10.png)
 
 select three "I Agree" and Next
 
-![Screenshot from 2017-03-13 15-50-30](../images/Screenshot from 2017-03-13 15-50-30.png)
+![Screenshot from 2017-03-13 15-50-30](../images/vivado/Screenshot from 2017-03-13 15-50-30.png)
 
 select third one, click Next
 
-![Screenshot from 2017-03-13 15-50-56](../images/Screenshot from 2017-03-13 15-50-56.png)
+![Screenshot from 2017-03-13 15-50-56](../images/vivado/Screenshot from 2017-03-13 15-50-56.png)
 
 select "Software Development Kit (SDK)", click Next
 
-![Screenshot from 2017-03-13 15-52-18](../images/Screenshot from 2017-03-13 15-52-18.png)
+![Screenshot from 2017-03-13 15-52-18](../images/vivado/Screenshot from 2017-03-13 15-52-18.png)
 
 choose installation directory, click Next
 
-![Screenshot from 2017-03-13 16-00-03](../images/Screenshot from 2017-03-13 16-00-03.png)
+![Screenshot from 2017-03-13 16-00-03](../images/vivado/Screenshot from 2017-03-13 16-00-03.png)
 
 click install
 
-![Screenshot from 2017-03-13 16-00-38](../images/Screenshot from 2017-03-13 16-00-38.png)
+![Screenshot from 2017-03-13 16-00-38](../images/vivado/Screenshot from 2017-03-13 16-00-38.png)
 
 
 
-![Screenshot from 2017-03-13 16-01-19](../images/Screenshot from 2017-03-13 16-01-19.png)
+![Screenshot from 2017-03-13 16-01-19](../images/vivado/Screenshot from 2017-03-13 16-01-19.png)
 
 after this, we need to load the license:
 
-![Screenshot from 2017-03-13 16-21-55](../images/Screenshot from 2017-03-13 16-21-55.png)
+![Screenshot from 2017-03-13 16-21-55](../images/vivado/Screenshot from 2017-03-13 16-21-55.png)
 
 click "Load License" and "Copy License" (You can find lic file in firmware path [phenix_devkit path]/amp_system/)
 
-![Screenshot from 2017-03-13 16-23-26](../images/Screenshot from 2017-03-13 16-23-26.png)
+![Screenshot from 2017-03-13 16-23-26](../images/vivado/Screenshot from 2017-03-13 16-23-26.png)
 
 select your license and click open.
 
@@ -193,6 +193,6 @@ Launching SDK with command /opt/Xilinx/SDK/2016.4/eclipse/lnx64.o/eclipse -vmarg
 
 **just like this:**
 
-![Screenshot from 2017-03-15 00-25-33](../images/Screenshot from 2017-03-15 00-25-33.png)
+![Screenshot from 2017-03-15 00-25-33](../images/vivado/Screenshot from 2017-03-15 00-25-33.png)
 
 ****
