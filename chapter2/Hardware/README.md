@@ -1,20 +1,13 @@
 # 1. Hardware interface introduction
-<div align=center>
+
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_1.png)
-</div>
 
-<div align=center>
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_2.png)
-</div>
 
-<div align=center>
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_3.png)
-</div>
 
 ## 1.1. GH connector pin sequence description
-<div align=center>
 ![GH connector](../images/HW/GH.jpg)
-</div>
 
 The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.
 
@@ -135,17 +128,15 @@ PhenixPRO provides all the way GPS expansion interface, the interface uses the U
 
 [PhenixPRO provides eight-way PWM form of electrical governor interface, unified use of 2.54mm pitch header. Each PWM pin is defined as follows:]
 
-<div align=center>
+
 ![PWM](../images/HW/4.png)
-</div>
 
 ## 1.11.SBUS
 
 PhenixPRO provides a SBUS input, a SBUS output interface, using 2.54mm pin spacing leads. Specific definitions are as follows:
 
-<div align=center>
 ![SBUS](../images/HW/5.png)
-</div>
+
 
 ## 1.12.Console
 
@@ -176,6 +167,4 @@ PhenixPRO provides a switch for configuring the BOOTmode. Defined as follows:
 
 Specific configuration information see below, the board currently supports SD card to start.
 
-<div align=center>
 ![boot mode setting](../images/HW/6.png)
-</div>
