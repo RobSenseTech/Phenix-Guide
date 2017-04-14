@@ -9,7 +9,7 @@
   * [Program the controller](chapter1/Program the controller.md)
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
   * [Constraints](chapter1/Constraints.md)
-  * [Register a Developer Account](chapter1/Become a Developer.md)
+  * [Become a Developer](chapter1/Become a Developer.md)
 
 * [Basis of SW/HW co-design with DevKit](chapter2/README.md)
   * [Toolchain](chapter2/Toolchain/README.md)
