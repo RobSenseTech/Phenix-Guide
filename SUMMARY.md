@@ -28,8 +28,8 @@
   * [Unmanned Underwater Vehicle Control](chapter3/Unmanned Underwater Vehicle Control/README.md)
   * [Unmanned Boat Control](chapter3/Unmanned Boat Control/README.md)
 
-* [Robotics Intelligence and IoT](chapter3/README.md)
+* [Robotics Intelligence and IoT Development](chapter3/README.md)
   * [Machine Vision](chapter4/Machine Vision/README.md)
   * [Communication](chapter4/Communication/README.md)
-  [Machine Learning](chapter4/Machine Learning/README.md)
-  [Edge Computing](chapter4/Edge Computing/README.md) 
+  * [Machine Learning](chapter4/Machine Learning/README.md)
+  * [Edge Computing](chapter4/Edge Computing/README.md)
