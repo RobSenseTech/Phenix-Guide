@@ -1,6 +1,6 @@
 ## Mission Planner Overview
 
-*Mission Planner* is a full-featured ground station application for the ArduPilot open source autopilot project. This page contains information on the background of *Mission Planner* and the organization of this site.
+*Mission Planner* is a full-featured ground station application for the ArduPilot open source autopilot project. This article comes from ardupilot website.To learn more about *mission planner*, click [here](http://ardupilot.org/planner/index.html).
 
 ### What is Mission Planner
 ![flight_data](../images/mission_planner/mission_planner_flight_data.jpg)
