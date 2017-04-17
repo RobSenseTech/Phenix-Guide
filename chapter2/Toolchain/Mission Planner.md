@@ -32,6 +32,7 @@ An icon to open the *Mission Planner* is created according to your instructions 
 To establish a connection you must first choose the communication method/channel you want to use, and then set up the physical hardware and Windows device drivers. You can connect the PC and DevKit using USB cables, Telemetry Radios, Bluetooth, IP connections etc.
 
 >Note
+>
 >The driver for your connection hardware must be present on Windows as this makes your connection’s COM port and default data rate available to *Mission Planner*.
 
 ![redio-laptop](../images/mission_planner/new-radio-laptop.jpg)
@@ -45,9 +46,9 @@ Once you’ve attached the USB or Telemetry Radio, Windows will automatically as
 
 Select the desired port and data rate and then press the Connect button to connect to the DevKit. After connecting *Mission Planner* will download parameters from the DevKit and the button will change to Disconnect as shown:
 ![DisconnectButton](../images/mission_planner/MisionPlanner_DisconnectButton.png)
-
+aaa
 >Tip
-
+>
 >The “select port” dropdown also contains TCP or UDP port options that can be used to connect to an DevKit over a network.
 
 ### Troubleshooting
