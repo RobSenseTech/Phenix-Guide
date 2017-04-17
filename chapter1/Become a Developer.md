@@ -58,7 +58,7 @@ While working on your contribution make sure to pull changes from upstream (the 
 
 first
 
-	$ git commit -am "commit info"
+	$ git commit -am "COMMIT INFO"
 
 than
 	
