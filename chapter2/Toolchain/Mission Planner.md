@@ -4,7 +4,6 @@
 
 ### What is Mission Planner
 ![flight_data](../images/mission_planner/mission_planner_flight_data.jpg)
-
 *Mission Planner* is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. *Mission Planner* can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle. 
 
 ## Installing Mission Planner
@@ -33,7 +32,6 @@ An icon to open the *Mission Planner* is created according to your instructions 
 To establish a connection you must first choose the communication method/channel you want to use, and then set up the physical hardware and Windows device drivers. You can connect the PC and DevKit using USB cables, Telemetry Radios, Bluetooth, IP connections etc.
 
 >Note
-
 >The driver for your connection hardware must be present on Windows as this makes your connection’s COM port and default data rate available to *Mission Planner*.
 
 ![redio-laptop](../images/mission_planner/new-radio-laptop.jpg)
