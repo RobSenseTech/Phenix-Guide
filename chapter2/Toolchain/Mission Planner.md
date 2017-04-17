@@ -4,6 +4,7 @@
 
 ### What is Mission Planner
 ![flight_data](../images/mission_planner/mission_planner_flight_data.jpg)
+
 *Mission Planner* is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. *Mission Planner* can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle. 
 
 ## Installing Mission Planner
@@ -13,6 +14,7 @@ Download the [latest Mission Planner installer from here](http://firmware.ardupi
 
 ### Run the installation utility
 Open the Microsoft installer file (.msi) and select **Run** to run the installation utility.
+
 ![installation](../images/mission_planner/installation.png)
 
 Follow the instructions to complete the setup process. The installation utility will automatically install any necessary software drivers. If you receive a DirectX installation error, please update your DirectX plug-in from the DirectX Download Center.
@@ -40,13 +42,15 @@ To establish a connection you must first choose the communication method/channel
 *Connection using SiK Radio from 3DR*
 
 On *Mission Planner*, the connection and data rate are set up using the drop down boxes in the upper right portion of the screen.
+
 ![ConnectButton](../images/mission_planner/MisionPlanner_ConnectButton.png)
 
 Once you’ve attached the USB or Telemetry Radio, Windows will automatically assign your Devkit a COM port number, and that will show in the drop-down menu (the actual number does not matter). The appropriate data rate for the connection is also set (typically the USB connection data rate is 11520 and the radio connection rate is 57600).
 
 Select the desired port and data rate and then press the Connect button to connect to the DevKit. After connecting *Mission Planner* will download parameters from the DevKit and the button will change to Disconnect as shown:
+
 ![DisconnectButton](../images/mission_planner/MisionPlanner_DisconnectButton.png)
-aaa
+
 >Tip
 >
 >The “select port” dropdown also contains TCP or UDP port options that can be used to connect to an DevKit over a network.
@@ -80,6 +84,7 @@ If *Mission planner* is unable to connect:
 ### Onboard Calibration
 
 Copter-3.4 (and higher) supports “Onboard Calibration” meaning that the calibration routine runs on the flight controller. This method is more accurate than the older “Offboard Calibration” (aka “Live Calibration”) which runs on the ground station because in addition to offsets, scaling is also calculated.
+
 ![Onboard](../images/mission_planner/CompassCalibration_Onboard.png)
 
 To perform the onboard calibration:
@@ -89,7 +94,8 @@ To perform the onboard calibration:
 * if your flight controller has a buzzer attached you should hear a single tone followed by short beep once per second
 
 * hold the vehicle in the air and rotate it so that each side (front, back, left, right, top and bottom) points down towards the earth for a few seconds in turn
-![accel-calib-positions](../images/mission_planner/accel-calib-positions-e1376083327116.jpg)
+
+	![accel-calib-positions](../images/mission_planner/accel-calib-positions-e1376083327116.jpg)
         
 * as the vehicle is rotated the green bars should extend further and further to the right until the calibration completes
 
@@ -107,6 +113,7 @@ To use this older method:
 * Click the **Live Calibration** button.
 
 	A window should pop-up showing you the state of the live calibration.
+
 	![LiveCalibrationScreen](../images/mission_planner/MissionPlanner_CompassCalibration_LiveCalibrationScreen.png)
         
 	*Mission Planner: Live Compass Calibration*
@@ -142,8 +149,8 @@ To use this older method:
 >Tip
 
 > * It is important that the vehicle is kept still immediately after pressing the key for each step.
-* You may need to calibrate the board before it is mounted if the size/shape of the vehicle makes this difficult.
-* The level position is the most important to get right as this will be the attitude that your controller considers level while flying.
+>* You may need to calibrate the board before it is mounted if the size/shape of the vehicle makes this difficult.
+>* The level position is the most important to get right as this will be the attitude that your controller considers level while flying.
 
 ## Radio Control Calibration in Mission Planner
 
@@ -157,7 +164,7 @@ For safety reasons you should disconnect the battery and/or remove propellers be
 Centre trims in manual RC mode before preforming RC calibration. If trims are not centred you may need to do the RC calibration again after you have used the vehicle (this is easy to do at the field).
 
 >Note
-
+>
 >Trims are centred when a moving vehicle does not change direction/speed/orientation when travelling hands-off with all controls/sticks in neutral positions. If there is any deviation in direction, speed or orientation, adjust the associated servo to compensate.
 #### Connect DevKit and turn on receiver ####
 Connect the DevKit via USB and turn on your RC transmitter. Verify that the transmitter is bound to the receiver (the receiver displays a solid green light) and that it is set to use the correct model for your vehicle.
@@ -169,12 +176,12 @@ Open *Mission Planner*’s **INITIAL SETUP | Mandatory Hardware | Radio Calibrat
 MissionPlanner: Radio Calibration Screen (Copter)
 
 >Tip
-
+>
 >If the bars are not moving then check what LED lights the receiver is displaying:
-
+>
 >* no lights may indicate that it is incorrectly wired to the DevKit (look for connectors that may have been inserted upside down).
-* red or a flashing green light may indicate that your RC transmitter/receiver need be bound (see the manual that came with your RC equipment for instructions).
-* a solid green light recheck the DevKit is connected to the *Mission Planner* and if the bars are still not moving, try clicking on the **Calibrate Radio** button.
+>* red or a flashing green light may indicate that your RC transmitter/receiver need be bound (see the manual that came with your RC equipment for instructions).
+>* a solid green light recheck the DevKit is connected to the *Mission Planner* and if the bars are still not moving, try clicking on the **Calibrate Radio** button.
 
 ### Calibration steps
 
