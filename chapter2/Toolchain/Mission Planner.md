@@ -3,7 +3,7 @@
 *Mission Planner* is a full-featured ground station application for the ArduPilot open source autopilot project. This page contains information on the background of *Mission Planner* and the organization of this site.
 
 ### What is Mission Planner
-![](../images/mission planner/mission_planner_flight_data.jpg)
+![flight_data](../images/mission planner/mission_planner_flight_data.jpg)
 
 
 *Mission Planner* is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. *Mission Planner* can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle. 
@@ -15,13 +15,13 @@ Download the [latest Mission Planner installer from here](http://firmware.ardupi
 
 ### Run the installation utility
 Open the Microsoft installer file (.msi) and select **Run** to run the installation utility.
-![](../images/mission planner/installation.png)
+![installation](../images/mission planner/installation.png)
 
 Follow the instructions to complete the setup process. The installation utility will automatically install any necessary software drivers. If you receive a DirectX installation error, please update your DirectX plug-in from the DirectX Download Center.
 
 If you receive the warning pictured here, select **Install this driver software anyway** to continue.
 
-![](../images/mission planner/driver_installation_warning.png)
+![driver_installation_warning](../images/mission planner/driver_installation_warning.png)
 
 *Mission Planner* is normally installed in the **C:\Program Files (x86)\APM Planner** folder or the **C:\Program Files\APM Planner** folder. That is where your log files folder is located.
 
@@ -37,17 +37,17 @@ To establish a connection you must first choose the communication method/channel
 
 >The driver for your connection hardware must be present on Windows as this makes your connection’s COM port and default data rate available to *Mission Planner*.
 
-![](../images/mission planner/new-radio-laptop.jpg)
+![redio-laptop](../images/mission planner/new-radio-laptop.jpg)
 
 *Connection using SiK Radio from 3DR*
 
 On *Mission Planner*, the connection and data rate are set up using the drop down boxes in the upper right portion of the screen.
-![](../images/mission planner/MisionPlanner_ConnectButton.png)
+![ConnectButton](../images/mission planner/MisionPlanner_ConnectButton.png)
 
 Once you’ve attached the USB or Telemetry Radio, Windows will automatically assign your Devkit a COM port number, and that will show in the drop-down menu (the actual number does not matter). The appropriate data rate for the connection is also set (typically the USB connection data rate is 11520 and the radio connection rate is 57600).
 
 Select the desired port and data rate and then press the Connect button to connect to the DevKit. After connecting *Mission Planner* will download parameters from the DevKit and the button will change to Disconnect as shown:
-![](../images/mission planner/MisionPlanner_DisconnectButton.png)
+![DisconnectButton](../images/mission planner/MisionPlanner_DisconnectButton.png)
 
 >Tip
 
@@ -71,7 +71,7 @@ If *Mission planner* is unable to connect:
 	* For any modern flight controller (Pixhawk, NAVIO2, etc) select the button Pixhawk/PX4.
 	* For APM 2.6, select APM with External Compass.
 	
-	![](../images/mission planner/MissionPlanner_CompassCalibration_MainScreen.png)
+	![CompassCalibration_MainScreen](../images/mission planner/MissionPlanner_CompassCalibration_MainScreen.png)
 
 	*Mission Planner: Compass Calibration*
 
@@ -82,7 +82,7 @@ If *Mission planner* is unable to connect:
 ### Onboard Calibration
 
 Copter-3.4 (and higher) supports “Onboard Calibration” meaning that the calibration routine runs on the flight controller. This method is more accurate than the older “Offboard Calibration” (aka “Live Calibration”) which runs on the ground station because in addition to offsets, scaling is also calculated.
-![](../images/mission planner/CompassCalibration_Onboard.png)
+![Onboard](../images/mission planner/CompassCalibration_Onboard.png)
 
 To perform the onboard calibration:
 
@@ -91,7 +91,7 @@ To perform the onboard calibration:
 * if your flight controller has a buzzer attached you should hear a single tone followed by short beep once per second
 
 * hold the vehicle in the air and rotate it so that each side (front, back, left, right, top and bottom) points down towards the earth for a few seconds in turn
-![](../images/mission planner/accel-calib-positions-e1376083327116.jpg)
+![accel-calib-positions](../images/mission planner/accel-calib-positions-e1376083327116.jpg)
         
 * as the vehicle is rotated the green bars should extend further and further to the right until the calibration completes
 
@@ -109,13 +109,13 @@ To use this older method:
 * Click the **Live Calibration** button.
 
 	A window should pop-up showing you the state of the live calibration.
-	![](../images/mission planner/MissionPlanner_CompassCalibration_LiveCalibrationScreen.png)
+	![LiveCalibrationScreen](../images/mission planner/MissionPlanner_CompassCalibration_LiveCalibrationScreen.png)
         
 	*Mission Planner: Live Compass Calibration*
 
 * The aim is to rotate the vehicle so that the coloured trail hits each of the white dots. One way to do this is to hold the vehicle in the air and rotate it slowly so that each side (front, back, left, right, top and bottom) points down towards the earth for a few seconds in turn.
 	
-	![](../images/mission planner/accel-calib-positions-e1376083327116.jpg)
+	![accel-calib-positions](../images/mission planner/accel-calib-positions-e1376083327116.jpg)
  
      *Compass Calibration Positions (shown for Copter, but true for all vehicles)*
 
@@ -126,7 +126,7 @@ To use this older method:
 
 1. Under Initial Setup | Mandatory Hardware, select Accel Calibration from the left-side menu.
 	
-	![](../images/mission planner/mp_accelerometer_calibration.png)   
+	![accelerometer_calibration](../images/mission planner/mp_accelerometer_calibration.png)   
 
     *Mission Planner: Calibrate Acceleration*
 
@@ -136,7 +136,7 @@ To use this older method:
 
     The calibration positions are: level, on right side, left side, nose down, nose up and on its back.
 
-	![](../images/mission planner/accel-calib-positions-e1376083327116.jpg)
+	![accel-calib-positions](../images/mission planner/accel-calib-positions-e1376083327116.jpg)
 
     *Accelerometer Calibration Positions (Copter)*
 
@@ -166,7 +166,7 @@ Connect the DevKit via USB and turn on your RC transmitter. Verify that the tran
 
 Open *Mission Planner*’s **INITIAL SETUP | Mandatory Hardware | Radio Calibration** screen. If your RC receiver (Rx) and transmitter (Tx) are bound, you should see the green bars move when you move the transmitter sticks.
 
-![](../images/mission planner/mp_radio_calibration.png)
+![mp_radio_calibration](../images/mission planner/mp_radio_calibration.png)
 
 MissionPlanner: Radio Calibration Screen (Copter)
 
@@ -185,13 +185,13 @@ MissionPlanner: Radio Calibration Screen (Copter)
 
 	*Mission Planner* will display a prompt to check radio control equipment is on, battery is not connected, and propellers are not attached. Select **OK**.
 	
-	![](../images/mission planner/mp_calibrate_radio.jpg)
+	![calibrate_radio](../images/mission planner/mp_calibrate_radio.jpg)
     
     *Mission Planner: Select Calibrate Radio and OK to begin calibrating.*
 
 3. Move the control sticks and toggle switches on your transmitter to their limits of travel and observe the results on the radio calibration bars. Red lines will appear across the calibration bars to indicate maximum and minimum values:
 
-	![](../images/mission planner/mp_radio_calibration_click_when_done.jpg)
+	![click_when_done](../images/mission planner/mp_radio_calibration_click_when_done.jpg)
 
 	*Mission Planner: Input range marked with red lines*
 
@@ -207,7 +207,7 @@ MissionPlanner: Radio Calibration Screen (Copter)
 
     *Mission Planner* will show a summary of the calibration data. Normal values are around 1100 for minimums and 1900 for maximums.
 
-	![](../images/mission planner/radi-calib-results.png)
+	![radi-calib-results](../images/mission planner/radi-calib-results.png)
 
     *Mission Planner: Radio Calibration Results*
 
