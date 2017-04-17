@@ -12,9 +12,10 @@
   * [Become a Developer](chapter1/Become a Developer.md)
 
 * [Basis of SW/HW co-design with DevKit](chapter2/README.md)
-  * [Toolchains](chapter2/Toolchain/README.md)
-    * [Install Ubuntu](chapter2/Toolchain/Install Ubuntu.md)
-    * [Install Xilinx Vivado](chapter2/Toolchain/Install Xilinx Vivado.md)
+  * [Toolchains](chapter2/Toolchains/README.md)
+    * [Install Ubuntu](chapter2/Toolchains/Install Ubuntu.md)
+    * [Install Xilinx Vivado](chapter2/Toolchains/Install Xilinx Vivado.md)
+    * [Mission Planner](chapter2/Toolchains/Mission Planner.md)
   * [Hello World](chapter2/Hello World.md)
   * [Hardware Insight](chapter2/Hardware/README.md)
     * [Zynq Soc](chapter2/Hardware/Zynq Soc.md)

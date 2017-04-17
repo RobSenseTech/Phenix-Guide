@@ -1,4 +1,4 @@
-For how to install a Mission Planner on your PC, please refer to the **Toolchains** section of second part.
+For how to install a Mission Planner on your PC, please refer to the **Toolchains** section of the second part.
 
 ## Connect Mission Planner to DevKit
 
