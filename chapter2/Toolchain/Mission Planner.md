@@ -147,8 +147,8 @@ To use this older method:
 
 
 >Tip
-
-> * It is important that the vehicle is kept still immediately after pressing the key for each step.
+>
+>* It is important that the vehicle is kept still immediately after pressing the key for each step.
 >* You may need to calibrate the board before it is mounted if the size/shape of the vehicle makes this difficult.
 >* The level position is the most important to get right as this will be the attitude that your controller considers level while flying.
 
@@ -201,9 +201,9 @@ MissionPlanner: Radio Calibration Screen (Copter)
 	*Mission Planner: Input range marked with red lines*
 
 	>Tip
-
+	>
 	>**The green bars should move in the same direction as the**
-
+	>
 	>transmitter sticks (except for Pitch where the bars move opposite to stick movements - low values are forward, high values are back). If the green bars move in the wrong direction, reverse them using your RC transmitter’s channel-reverse function (see your RC gear’s manual for guidance).
 
 	You should also calibrate the channel you have selected for controlling vehicle mode, and any other channels you have connected to the DevKit.
