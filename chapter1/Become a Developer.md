@@ -56,6 +56,13 @@ While working on your contribution make sure to pull changes from upstream (the 
 
 7.Once you finished to work on your contribution it’s time to push it to your forked repository on GitHub:
 
+first
+
+	$ git commit -am "commit info"
+
+than
+	
+
 	$ git push origin BRANCH_NAME
 Now go back to your forked project on GitHub in your browser and you will find a new button at the top of the page to create a pull request:
 
