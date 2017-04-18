@@ -15,7 +15,7 @@
   * [Toolchains](chapter2/Toolchains/README.md)
     * [Install Ubuntu](chapter2/Toolchains/Install Ubuntu.md)
     * [Install Xilinx Vivado](chapter2/Toolchains/Install Xilinx Vivado.md)
-    * [Mission Planner](chapter2/Toolchains/Mission Planner.md)
+    * [Install Mission Planner](chapter2/Toolchains/Mission Planner.md)
   * [Hello World](chapter2/Hello World.md)
   * [Hardware Insight](chapter2/Hardware/README.md)
     * [Zynq Soc](chapter2/Hardware/Zynq Soc.md)
