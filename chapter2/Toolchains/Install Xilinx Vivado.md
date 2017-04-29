@@ -1,7 +1,5 @@
 # DevKit Develop Enviroment For Ubuntu16.04
 
-[TOC]
-
 ## 1.Install Vivado
 
 ### 1.1 Download
