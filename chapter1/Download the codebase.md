@@ -1,5 +1,3 @@
-[TOC]
-
 ## 1.Download Source Code
 
 Download code from github:
