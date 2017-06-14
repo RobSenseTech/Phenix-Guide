@@ -10,9 +10,8 @@
   * [Configure with Mission Planner](chapter1/Configure with Mission Planner.md)
   * [Release Note](chapter1/Release Note.md)
   * [Become a Developer](chapter1/Become a Developer.md)
-
 * [Basis of SW/HW co-design with DevKit](chapter2/README.md)
-  * [Toolchains](chapter2/Toolchains/README.md)
+  * [Develop Enviroment](chapter2/Toolchains/README.md)
     * [Install Ubuntu](chapter2/Toolchains/Install Ubuntu.md)
     * [Install Xilinx Vivado](chapter2/Toolchains/Install Xilinx Vivado.md)
     * [Install Mission Planner](chapter2/Toolchains/Mission Planner.md)
@@ -22,15 +21,14 @@
     * [PS](chapter2/Hardware/PS.md)
     * [PL](chapter2/Hardware/PL.md)
   * [Software Insight](chapter2/Software Insight.md)
-
 * [Robotics Control Stacks](chapter3/README.md)
   * [Unmanned Aerial Vehicle](chapter3/Unmanned Aerial Vehicle Control/README.md)
   * [Unmanned Ground Vehicle](chapter3/Unmanned Ground Vehicle Control/README.md)
   * [Unmanned Underwater Vehicle](chapter3/Unmanned Underwater Vehicle Control/README.md)
   * [Unmanned Boat](chapter3/Unmanned Boat Control/README.md)
-
 * [Robotics Intelligence and IoT ](chapter3/README.md)
   * [Machine Vision](chapter4/Machine Vision/README.md)
   * [Communication](chapter4/Communication/README.md)
   * [Machine Learning](chapter4/Machine Learning/README.md)
   * [Edge Computing](chapter4/Edge Computing/README.md)
+
