@@ -1,19 +1,23 @@
-[TOC]
-
 ## 1.Boot
 
 Devkit support boot from sd card, copy these file to sd card:
 
 ```
-1.[prj_path]/BOOT.BIN
-2.[prj_path]/amp_system/linux_image/devicetree.dtb
-3.[prj_path]/amp_system/linux_image/uImage
-4.[prj_path]/amp_system/linux_image/uramdisk.image.gz
+1.PhenixPro_Devkit/BOOT.BIN
+2.PhenixPro_Devkit/amp_system/linux_image/devicetree.dtb
+3.PhenixPro_Devkit/amp_system/linux_image/uImage
+4.PhenixPro_Devkit/amp_system/linux_image/uramdisk.image.gz
 ```
 
 set DIP switch like the image below(it means boot from sd card):
 
 ![webwxgetmsgimg](images/boot mode.jpg)
+
+Insert SD card to devkit, connect micro usb to PC, open uart tools(recommand SecureCRT) with 115200 baudrate, and power on, you will see print information on console:
+
+![start-console](images/start-console.png)
+
+
 
 ## 2.Connect UAV Components
 
