@@ -7,4 +7,7 @@ The PhenixPro DevKit is an intelligent control, computing and networking platfor
 * and hosting on github: [https://github.com/RobSenseTech/PhenixPro-DevKit-Guide.git](https://github.com/RobSenseTech/PhenixPro-DevKit-Guide.git), so developers can contribute to edit and push modifications.
 * Developers can push questions to DevKit user forum at: [http://dev.robsense.com](http://dev.robsense.com)
 
+<div align = center>
 ![](images/mmexport14.png)
+<img src="images/mmexport14.png" width = "80%" />
+</div>
