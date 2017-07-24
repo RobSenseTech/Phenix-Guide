@@ -1,6 +1,6 @@
-# The PhenixPro Flight Controller DevKit
+# PhenixPro DevKit: Programability for Networked Unmanned Systems
 
-The PhenixPro DevKit is an intelligent mobile robot control, computing and networking platform. It's integrated in a Xilinx Zynq SoC, with dual core ARM Cortex-A9 CPU and FPGA fabric on a signal chip. It is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. Attitude estimation, flight control, navigation are implemented by ArduPilot \([http://ardupilot.org](http://ardupilot.org)\). So far, it only support quadcopter, we call it flying robot.
+The PhenixPro DevKit is an intelligent control, computing and networking platform for unmanned systems. It integrates a Xilinx Zynq SoC, which packaging a dual core ARM Cortex-A9 CPU and FPGA fabric on a signal chip. PhenixPro DevKit is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. Attitude estimation, flight control, navigation are implemented by ArduPilot flight control stack \([http://ardupilot.org](http://ardupilot.org)\). So far, it only support quadcopter, we call it flying robot.
 
 * The codebase is hosting on github: [https://github.com/RobSenseTech/PhenixPro\_Devkit.git](https://github.com/RobSenseTech/PhenixPro_Devkit.git).
 * The developers' guide is presenting on: [https://guide.robsense.com/](https://guide.robsense.com/).
@@ -8,4 +8,3 @@ The PhenixPro DevKit is an intelligent mobile robot control, computing and netwo
 * Developers can push questions to DevKit user forum at: [http://dev.robsense.com](http://dev.robsense.com)
 
 ![](images/mmexport14.png)
-
