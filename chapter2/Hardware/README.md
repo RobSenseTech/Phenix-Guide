@@ -6,6 +6,10 @@
 
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_3.png)
 
+![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_4.png)
+
+![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_5.png)
+
 ## 1.1. GH connector pin sequence description
 ![GH connector](../images/HW/GH.jpg)
 
