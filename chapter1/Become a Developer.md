@@ -14,7 +14,7 @@ Simply, send you contact details
 
 to _**developers@robsense.com**_
 
-Once your request been processed, your email will be put onto the mailling list.   
+Once your request been processed, your email will be put onto the mailling list (PhenixPro DevKit Beta).   
 You will be updated with every single release and you can post your questions on this maillist list in order to get issue solved with helps from the whole dev community.
 
 # How to contribute to the project on GitHub
@@ -116,6 +116,3 @@ To delete the branch on GitHub:
 ```
 git push origin --delete BRANCH_NAME
 ```
-
-
-
