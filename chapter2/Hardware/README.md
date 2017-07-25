@@ -1,5 +1,5 @@
 # 1. Hardware interface introduction
-
+<div align = center>
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_1.png)
 
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_2.png)
@@ -9,9 +9,13 @@
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_4.png)
 
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_5.png)
+</div>
 
 ## 1.1. GH connector pin sequence description
+
+<div align = center>
 ![GH connector](../images/HW/GH.jpg)
+</div>
 
 The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.
 
@@ -27,9 +31,11 @@ The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, Mini
 | 5 | GND |  |
 | 6 | GND |  |
 
+
 ## 1.3. JTAG
 
 PhenixPRO provides JTAG debugging interface, using 7Pin GH connector, pin definition is as follows:
+
 
 | Pin | Definition | Notes |
 | :--- | :--- | :--- |
@@ -40,6 +46,7 @@ PhenixPRO provides JTAG debugging interface, using 7Pin GH connector, pin defini
 | 5 | GND |  |
 | 6 | VDD3V3 |  |
 | 7 | RST |  |
+
 
 ## 1.4. IIC
 
