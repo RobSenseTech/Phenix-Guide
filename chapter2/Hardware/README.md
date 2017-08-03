@@ -1,5 +1,5 @@
 # 1. Hardware interface introduction
-<div align = center>
+
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_1.png)
 
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_2.png)
@@ -9,13 +9,13 @@
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_4.png)
 
 ![PhenixPro DevKit V1.0 I/O distribution](../images/HW/EN_5.png)
-</div>
+
 
 ## 1.1. GH connector pin sequence description
 
-<div align = center>
+
 ![GH connector](../images/HW/GH.jpg)
-</div>
+
 
 The connectors used for PhenixPRO flight control, in addition to USB-TYPEA, MiniHDMI, Cameralink, TF socket, MircoUSB using the standard connector, the rest are used GH connector . The picture is a diagram of the GH connector,, the first foot on the left is defined as PIN1, all GH form interface on PhenixPRO are defined in this order.
 
