@@ -4,7 +4,7 @@ The PhenixPro DevKit is an intelligent control, computing and networking platfor
 
 
 
-<iframe width="750" height="450" src="http://www.youtube.com/embed/xCQVF-IcDbg" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="450" src="https://www.youtube.com/embed/xCQVF-IcDbg" frameborder="0" allowfullscreen></iframe>
 
 
 PhenixPro DevKit is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. Attitude estimation, flight control, navigation are implemented by ArduPilot flight control stack \([http://ardupilot.org](http://ardupilot.org)\). So far, it only support quadcopter, we call it flying robot.
