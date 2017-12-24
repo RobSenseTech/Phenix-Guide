@@ -1,6 +1,6 @@
 # Register a developer account
 
-You can log on [http://dev.robsense.com](http://dev.robsense.com), and register a developer account in the dev forum. And we also have a **Slack** workspace for instant discussion, please refer to **https://phenixpro.slack.com.**  
+You can log on [http://dev.robsense.com](http://dev.robsense.com), and register a developer account in the dev forum, then post your questions. And we also have a [**Slack**](https://slack-invitation-auto.herokuapp.com) workspace for instant discussion among developers**.**  
 ![](/chapter1/images/forum.png)
 
 # Subscribe the PhenixPro-DevKit-Beta mailling list
