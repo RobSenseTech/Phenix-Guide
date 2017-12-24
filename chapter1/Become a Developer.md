@@ -1,6 +1,6 @@
 # Register a developer account
 
-You can log on [http://dev.robsense.com](http://dev.robsense.com), and register a developer account in the dev forum.  
+You can log on [http://dev.robsense.com](http://dev.robsense.com), and register a developer account in the dev forum. And we also have a **Slack** workspace for instant discussion, please refer to **https://phenixpro.slack.com.**  
 ![](/chapter1/images/forum.png)
 
 # Subscribe the PhenixPro-DevKit-Beta mailling list
@@ -14,7 +14,7 @@ Simply, send you contact details
 
 to _**developers@robsense.com**_
 
-Once your request been processed, your email will be put onto the mailling list (PhenixPro DevKit Beta).   
+Once your request been processed, your email will be put onto the mailling list \(PhenixPro DevKit Beta\).  
 You will be updated with every single release and you can post your questions on this maillist list in order to get issue solved with helps from the whole dev community.
 
 # How to contribute to the project on GitHub
@@ -116,3 +116,6 @@ To delete the branch on GitHub:
 ```
 git push origin --delete BRANCH_NAME
 ```
+
+
+
