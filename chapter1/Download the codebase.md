@@ -1,9 +1,15 @@
-## 1.Download Source Code
+## Download Source Code
 
 Download code from github:
 
+### PhenixPro Devkit V1.0
 ```
 git clone https://github.com/RobSenseTech/PhenixPro_Devkit
+```
+
+### PhenixPro Devkit V2.0
+```
+git clone https://github.com/RobSenseTech/PhenixPro_Devkit_V2.0
 ```
 
 compile code under the guidance of [prj_path]/README.md

@@ -21,7 +21,10 @@ Changes from 0.1
 3. Support log record during flight
 4. Fix crash problem, update FreeRTOS version to v9.0.0,  old version FreeRTOS can not support saving FPU context in task switch, it cause fatal float error in EKF
 
+---
 
+Phenix Devkit Firmware v2.0 Oct 13 19:23:59 2017
 
-
+1. Change Divket OS Platform,running only Linux on dual CPU core. 
+2. APM is running as a linux task.
 

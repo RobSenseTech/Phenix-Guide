@@ -8,8 +8,12 @@ Devkit support boot from sd card, copy these file to sd card:
 3.PhenixPro_Devkit/amp_system/linux_image/uImage
 4.PhenixPro_Devkit/amp_system/linux_image/uramdisk.image.gz
 ```
+**Note:**
+​	The directory of PhenixPro Devkit V2.0 is RobSenseTech/PhenixPro_Devkit_V2.0... 
 
 set DIP switch like the image below(it means boot from sd card):
+
+For PhenixPro Devkit V1.0
 
 ![webwxgetmsgimg](images/boot mode.jpg)
 
@@ -17,6 +21,12 @@ Insert SD card to devkit, connect micro usb to PC, open uart tools(recommand Sec
 
 ![start-console](images/start-console.png)
 
+
+For PhenixPro Devkit V2.0
+
+![webwxgetmsgimg](images/devkit-boot.jpg)
+
+And the he print information is similar to general Linux startup information.
 
 
 ## 2.Connect UAV Components
