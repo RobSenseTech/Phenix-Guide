@@ -6,13 +6,12 @@ Download code from github:
 ```
 git clone https://github.com/RobSenseTech/PhenixPro_Devkit
 ```
+compile code under the guidance of [prj_path]/README.md
 
 ### PhenixPro Devkit V2.0
 ```
 git clone https://github.com/RobSenseTech/PhenixPro_Devkit_V2.0
 ```
-
-compile code under the guidance of [prj_path]/README.md
 
 **Note**: From now on, we have two branch on github:
 
