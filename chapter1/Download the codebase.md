@@ -11,6 +11,7 @@ compile code under the guidance of [prj_path]/README.md
 ### PhenixPro Devkit V2.0
 ```
 git clone https://github.com/RobSenseTech/PhenixPro_Devkit_V2.0
+git clone https://github.com/RobSenseTech/TrackingDemo_DevkitPro_linux
 ```
 
 **Note**: From now on, we have two branch on github:

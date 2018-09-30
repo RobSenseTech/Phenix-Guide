@@ -28,7 +28,7 @@ Below shows how to build ArduCopter for the PhenixPro Devkit V2.0
 First,Enter the specified directory:
 
 ```
-cd PhenixPro_Devkit_V2.0/TrackingDemo_DevkitPro_linux
+cd TrackingDemo_DevkitPro_linux
 ```
 
 The next command should be called only once or when you want to change a configuration option. One configuration often used is the --board option to switch from one board to another one. For PhenixPro Devkit V2.0 we could switch to rst_zynq and build:

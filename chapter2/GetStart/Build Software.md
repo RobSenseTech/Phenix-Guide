@@ -235,7 +235,13 @@ cd PhenixPro_Devkit_V2.0/linux-xlnx-4.9
 
 Compile kernel:
 ```
-make ARCH=arm xilinx_zynq_defconfig
+cp arch/arm/boot/phenixpro-devkit-config/devkit-config .config
+
+make ARCH=arm CROSS_COMPILE=arm-xilinx-linux-gnueabi- menuconfig
+Device Drivers  --->
+		[*]Pulse-Width Modulation (PWM) Support  --->
+		<*>   Xilinx PWM support
+
 make ARCH=arm UIMAGE_LOADADDR=0x8000 CROSS_COMPILE=arm-xilinx-linux-gnueabi- uImage -j8
 ```
 
