@@ -6,8 +6,12 @@ The PhenixPro is an intelligent control, computing and networking platform for u
 
 <iframe width="750" height="450" src="https://www.youtube.com/embed/xCQVF-IcDbg" frameborder="0" allowfullscreen></iframe>
 
+Below shows some differences between Phenix Pro Devkit V1.0 and V2.0.
+PhenixPro Devkit V1.0 is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. 
+PhenixPro Devkit V2.0 is running only Linux on dual CPU core. A ArduPilot flight control stack  is running as a linux task.
+Choose according to your interest.
 
-PhenixPro is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. Attitude estimation, flight control, navigation are implemented by ArduPilot flight control stack \([http://ardupilot.org](http://ardupilot.org)\). So far, it only support quadcopter, we call it flying robot.
+Attitude estimation, flight control, navigation are implemented by ArduPilot flight control stack \([http://ardupilot.org](http://ardupilot.org)\). So far, it only support quadcopter, we call it flying robot.
 
 * The codebase is hosting on github: [https://github.com/RobSenseTech/PhenixPro\_Devkit.git](https://github.com/RobSenseTech/PhenixPro_Devkit.git).
 * The developers' guide is presenting on: [https://guide.robsense.com/](https://guide.robsense.com/).

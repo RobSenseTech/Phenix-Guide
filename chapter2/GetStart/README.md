@@ -8,6 +8,8 @@ Developing on devkit include two part:
    ```
    PhenixPro_Devkit/amp_system/vivado_prj.tar.gz
    ```
+**Note:**
+    PhenixPro Devkit V2.0 have the same Hardware design（vivado project）as V1.0.
 
 2. Software design, which contains bare-metal, operation system develop on dual arm-cortex a9
 
