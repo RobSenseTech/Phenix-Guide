@@ -32,6 +32,11 @@
 * [Robotics Intelligence and IoT ](chapter3/README.md)
   * [Machine Vision](chapter4/Machine Vision/README.md)
   * [Communication](chapter4/Communication/README.md)
+    * [EasySwarm](chapter4/Communication/SwarmLink/EasySwarm.md)
+    * [Function Introduction](chapter4/Communication/SwarmLink/Function Introduction.md)
+    * [Quick Connections](chapter4/Communication/SwarmLink/Quick Connections.md)
+    * [Use Cases](chapter4/Communication/SwarmLink/Use Cases.md)
+    * [FAQ](chapter4/Communication/SwarmLink/FAQ.md)
   * [Machine Learning](chapter4/Machine Learning/README.md)
   * [Edge Computing](chapter4/Edge Computing/README.md)
 
