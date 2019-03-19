@@ -16,5 +16,5 @@ The supported open-source fly control firmware is as follows:
 # Hardware
 
 ![SwarmLink DevKit Gateway](images/SwarmLink DevKit Gateway.png)
-SwarmLink DevKit Gateway
+SwarmLink DevKit Gateway  
 ![SwarmLink Devkit Node](images/SwarmLink Devkit Node.png)
