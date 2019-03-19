@@ -6,15 +6,15 @@ EasySwarm helps developers to fast build ultra-reliable wireless local networks 
 
 EasySwarm offers an open-source ground control software, with which developers can 
 * deploy customized swarming strategies
-* monitor operation status of all unmanned vehicles
-EasySwarm available at GitHub：
-    https://github.com/RobSenseTech/SwarmLink.git
-The supported open-source fly control firmware is as follows:
-    PX4：V1.6.5、V1.7.2
-    ArduPilot：ArduCopter V3.3.3 Quad、ArduCopter V3.5.7 Quad
+* monitor operation status of all unmanned vehicles  
+EasySwarm available at GitHub：  
+&emsp;&emsp;&emsp;&emsp;https://github.com/RobSenseTech/SwarmLink.git
+The supported open-source fly control firmware is as follows:  
+&emsp;&emsp;&emsp;&emsp;PX4：V1.6.5、V1.7.2  
+&emsp;&emsp;&emsp;&emsp;ArduPilot：ArduCopter V3.3.3 Quad、ArduCopter V3.5.7 Quad  
 
 # Hardware
 
-![SwarmLink DevKit Gateway](images/SwarmLink DevKit Gateway.png)
+![SwarmLink DevKit Gateway](/images/Communication/SwarmLink DevKit Gateway.png)
 SwarmLink DevKit Gateway  
-![SwarmLink Devkit Node](images/SwarmLink Devkit Node.png)
+![SwarmLink Devkit Node](/images/Communication/SwarmLink Devkit Node.png)
