@@ -1,5 +1,5 @@
-***"Thanks again for your support of Robsense products!Your every question and feedback, is the trust and expectation of us.We go all out to provide you with good service.
- &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp; - Robsense technical support team***
+***"Thanks again for your support of Robsense products!Your every question and feedback, is the trust and expectation of us.We go all out to provide you with good service."
+ &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp; &emsp;  &emsp;  &emsp;  &emsp; &emsp;  &emsp;  &emsp;  &emsp; - Robsense technical support team***
  
  
 **Question 1**:After networking according to the operation manual on the official website, the corresponding node cannot be identified.  
@@ -44,7 +44,7 @@
 **Answer**:  
 7.1 Due to the technical challenge of modifying the flight control code, we cannot confirm whether your development work is effective. Please ask for help from our WeChat group or dev.robsense.com developer BBS.It is recommended that you detail your development and problem details so that developers with the same experience can understand your problem and help.However, we cannot guarantee that you can get 100% support. Although it is not within the scope of after-sales service, Robsense will try its best to help you find problems and solutions brought by development.  
 
-**Question 8**:After the secondary development of the ardupilot firmware, packet loss still exists in the gateway and node test.
+**Question 8**:After the secondary development of the ardupilot firmware, packet loss still exists in the gateway and node test.  
 **Answer**:  
 8.1 as question 7.  
 8.2 Robsense's experience: the problem may be caused by the congestion caused by the large amount of data sent to the gateway actively by the flight control through the node.If the cause of the failure needs to be confirmed, it is recommended to turn on the packet capture software (for example, Device Monitoring Studio) at the gateway side to see if large amounts of data are received from the node without any active requests being made.If the situation described above is met, it can be positioned as a problem caused by flight control, and the positioning problem in the development process needs to be reviewed.  
