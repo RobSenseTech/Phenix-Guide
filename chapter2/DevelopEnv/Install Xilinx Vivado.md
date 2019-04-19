@@ -4,7 +4,9 @@
 
 ### 1.1 Download
 
-Our Vivado version is 2016.4 (Download here:https://www.xilinx.com/support/download.html)
+Our Vivado version is now 2017.4.
+
+Blow shows the installation method of 2016.4, it is same to 2017.4 version. (Download here:https://www.xilinx.com/support/download.html)
 
 Get Phenix Pro Devkit Firmware from github:
 

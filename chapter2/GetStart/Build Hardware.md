@@ -1,4 +1,5 @@
 # 1. Build Hardware
+
 This section descript how to build a **minimum hardware system**,  and you will know the basic hardware develop flow of devkit.
 
 There is no need to build the whole devkit hardware system by yourself, Robsense has already built for you, and you can find it at
@@ -9,15 +10,15 @@ PhenixPro_Devkit/amp_system/vivado_prj.tar.gz
 
 ### 1.1 Install Board Interface File
 
-(Reference: ug895-vivado-system-level-design-entry.pdf Appx.A)
+\(Reference: ug895-vivado-system-level-design-entry.pdf Appx.A\)
 
-After installing Vivado, the installation directory will contain a folder called **board_files**. This folder contains XML files for different FPGA boards manufactured by Xilinx.
+After installing Vivado, the installation directory will contain a folder called **board\_files**. This folder contains XML files for different FPGA boards manufactured by Xilinx.
 
 XML files define different interfaces on the board. Interfaces such as UART, DDR Memory, Ethernet etc. For example, we use IP core AXI UART16550, but it has 14pins by default, there are only 2 pins in our devkit for uart, so we have to custom the interface of the IP core through XML. After installing board interface file, we will be able to assign different inerfaces that are available on your selected board to a specific IP block:
 
 ![Screenshot from 2017-03-20 11-22-15](../images/hello world/Screenshot from 2017-03-20 11-22-15.png)
 
-Robsense has written these XML files, they are stored in our firmware project, all you need is just get it from github, and copy then into path **board_files**:
+Robsense has written these XML files, they are stored in our firmware project, all you need is just get it from github, and copy then into path **board\_files**:
 
 ```
 cd [phenix_devkit path]/amp_system/
@@ -25,13 +26,11 @@ tar xf vivado_prj.tar.gz
 sudo cp vivado_prj/phenix_devkit [Vivado Install Dir]/Vivado/2016.4/data/boards/board_files -r
 ```
 
-
-
-**Note:** If you are interested in how to write the XML, you can reference Chapter Appx.A in Xilinx offical document **UG895 **(https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_4/ug895-vivado-system-level-design-entry.pdf).
+**Note:** If you are interested in how to write the XML, you can reference Chapter Appx.A in Xilinx offical document **UG895 **\([https://www.xilinx.com/support/documentation/sw\_manuals/xilinx2016\_4/ug895-vivado-system-level-design-entry.pdf](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_4/ug895-vivado-system-level-design-entry.pdf)\).
 
 ### 1.2 Create Project
 
-(Reference:http://zedboard.org/zh-hant/node/1454)
+\(Reference:[http://zedboard.org/zh-hant/node/1454](http://zedboard.org/zh-hant/node/1454)\)
 
 Open Vivadio and click "Create New Project", input project name, and click Next
 
@@ -55,8 +54,6 @@ click "Create Block Design", input design name, and click "OK"
 
 ![Screenshot from 2017-03-13 18-45-01](../images/hello world/Screenshot from 2017-03-13 18-45-01.png)
 
-
-
 ### 1.3  Create Minimum System Design
 
 Now we have a empty design, let's add IP to it
@@ -77,21 +74,20 @@ Now, we've created our PS within the IPI block, next, we need to create an HDL w
 
 ![Screenshot from 2017-03-13 19-48-02](../images/hello world/Screenshot from 2017-03-13 19-48-02.png)
 
-right mouse click ![Screenshot from 2017-03-13 19-49-26](../images/hello world/Screenshot from 2017-03-13 19-49-26.png)and select "Create HDL Wrapper",This will generate a HDL wrapper that the Vivado synthesizer understands.  Once this happens, we are ready to generate our bitfile. This might sound like a large jump, but there isn't anything else in our design - it's almost entirely PS (the only PL portion is that AXI
-port support logic).
+right mouse click ![Screenshot from 2017-03-13 19-49-26](../images/hello world/Screenshot from 2017-03-13 19-49-26.png)and select "Create HDL Wrapper",This will generate a HDL wrapper that the Vivado synthesizer understands.  Once this happens, we are ready to generate our bitfile. This might sound like a large jump, but there isn't anything else in our design - it's almost entirely PS \(the only PL portion is that AXI  
+port support logic\).
 
-next, we need to set "Top moudule name", click "Synthesis Settings"![Screenshot from 2017-03-14 10-46-20](../images/hello world/Screenshot from 2017-03-14 10-46-20.png)and "..."button, select phenix_devkit_wrapper:
+next, we need to set "Top moudule name", click "Synthesis Settings"![Screenshot from 2017-03-14 10-46-20](../images/hello world/Screenshot from 2017-03-14 10-46-20.png)and "..."button, select phenix\_devkit\_wrapper:
 
 ![Screenshot from 2017-03-14 14-38-02](../images/hello world/Screenshot from 2017-03-14 14-38-02.png)
 
 At last, click "Run Synthesis", "Run Implementation" and "Generate Bitstream" to generate PL program
 
-### 1.4 Export hdf(hardware definition file) file
+### 1.4 Export hdf\(hardware definition file\) file
 
-If we want to develop on PS with Xilinx SDK, we need to tell SDK how our hardware looks like, which is the usage of the hdf file. Exporting hdf file is quite simple, just click **File->Export->Export Hardware**, and choose the path you want to store the hdf file(don't forget include bitstream file):
+If we want to develop on PS with Xilinx SDK, we need to tell SDK how our hardware looks like, which is the usage of the hdf file. Exporting hdf file is quite simple, just click **File-&gt;Export-&gt;Export Hardware**, and choose the path you want to store the hdf file\(don't forget include bitstream file\):
 
 ![Screenshot from 2017-03-14 15-54-04](../images/hello world/Screenshot from 2017-03-14 15-54-04.png)
 
-now, we can launch SDK to generate FSBL and BSP, please go to next secion.
-
+now, we can launch SDK to generate uboot.bin.
 
