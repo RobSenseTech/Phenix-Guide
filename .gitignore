@@ -7,9 +7,6 @@
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
 
-# Source control
-_build
-
 # Book build output
 _book
 
