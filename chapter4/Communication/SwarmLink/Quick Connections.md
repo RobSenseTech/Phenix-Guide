@@ -30,12 +30,12 @@ If the developer is using px4-1.7.3 version, there is need to modify original fi
 1.Find the firmware/SRC/module/mavlink/mavlink_main.cpp file.  
 2. Add code in the corresponding position, as shown in the 1, 2, 3, 4 and 5 steps shown above.  
 **Turn off serial port flow control:**  
-![Turn off serial port](/images/Communication/Turn off serial port.png)  
+![Turn off serial port](/images/Communication/Turn off serial port.png)  { width=100% }
 1.Find the firmware/SRC/module/mavlink/mavlink_main.h file.  
 2. Add code in the corresponding position, as shown in the 1 steps shown above.  
 3.Find the firmware/SRC/module/mavlink/mavlink_main.cpp file.  
 4. Add code in the corresponding position, as shown in the 2,3,4 steps shown above.  
 **Modify boot file:**  
-![Modify boot file](/images/Communication/Modify boot file.png)  
+![Modify boot file](/images/Communication/Modify boot file.png)  { width=100% }
 1.find firmware/ROMFS/px4fmu_common/init.d/rcS file.  
 2. add the code at the corresponding location, as shown in the red area above.  
