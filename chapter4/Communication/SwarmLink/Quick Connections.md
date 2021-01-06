@@ -25,8 +25,8 @@ SwarmLink Node/Gateway：1.TXD     2.RXD     3.VCC     4.GND
 
 If the developer is using px4-1.7.3 version, there is need to modify original firmware. The red boxes below show the code to be modified or added.   
 **Mavlink update:**  
-![Mavlink update01](/images/Communication/Mavlink update01.png)  
-![Mavlink update02](/images/Communication/Mavlink update02.png)  
+![Mavlink update01](/images/Communication/Mavlink update01.png)  { width=50% }
+![Mavlink update02](/images/Communication/Mavlink update02.png)  { width=100% }
 1.Find the firmware/SRC/module/mavlink/mavlink_main.cpp file.  
 2. Add code in the corresponding position, as shown in the 1, 2, 3, 4 and 5 steps shown above.  
 **Turn off serial port flow control:**  
