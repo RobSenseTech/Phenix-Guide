@@ -1,4 +1,4 @@
-# Your First Flight With PhenixPro
+# Your First Flight With Phenix
 
 Before diving into technical details of the whole developing process, a taste of flying is always interesting.
 
