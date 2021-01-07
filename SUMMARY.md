@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introducing Phenix](README.md)
+* [Introducing Phenix Personal Edition](README.md)
 * [Your First Flight With Phenix](chapter1/README.md)
   * [Purchase a Phenix Pro](chapter1/purchase-a-devkit.md)
   * [Build your Quadcopter](chapter1/build-your-quadcopter.md)

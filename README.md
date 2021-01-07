@@ -1,6 +1,6 @@
-# Introducing Phenix
+# Introducing Phenix Personal Edition
 
-The PhenixPro is an intelligent control, computing and networking platform for unmanned systems. It integrates a Xilinx Zynq SoC, which packaging a dual core ARM Cortex-A9 CPU and FPGA fabric on a signal chip.
+The Phenix Personal Edition is an intelligent control, computing and networking platform for unmanned systems. It integrates a Xilinx Zynq SoC, which packaging a dual core ARM Cortex-A9 CPU and FPGA fabric on a signal chip.
 
 Below shows some differences between Phenix Pro Devkit V1.0 and V2.0. PhenixPro Devkit V1.0 is also running PhenOS\(based on freeRTOS\) and Linux on each CPU core respectively. PhenixPro Devkit V2.0 is running only Linux on dual CPU core. A ArduPilot flight control stack is running as a linux task. Choose according to your interest.
 
