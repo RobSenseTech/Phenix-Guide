@@ -1,3 +1,5 @@
+# Your First Flight With PhenixPro
+
 Before diving into technical details of the whole developing process, a taste of flying is always interesting.
 
 * You can buy a PhenixPro Devkit flight controller first;
@@ -5,6 +7,4 @@ Before diving into technical details of the whole developing process, a taste of
 * Download the source code and build the firmware;
 * Program the flight controller by coping executive binary in the booting TF card;
 * Configure all parameters of the quadcopter with ground station, like **Mission Planner**  
-
-
 
