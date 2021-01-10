@@ -29,7 +29,7 @@ If the developer is using px4-1.7.3 version, there is need to modify original fi
 **Mavlink update:**  
 ![Mavlink update01](../../.gitbook/assets/Mavlink%20update01.png) 
 ![Mavlink update02|](../../.gitbook/assets/Mavlink%20update02.png)  
-<img src="../../.gitbook/assets/Mavlink%20update02.png" alt="Mavlink update02" width="32"/>
+<img src="../../.gitbook/assets/Mavlink%20update02.png" alt="Mavlink update02" width="50%"/>
 1.Find the firmware/SRC/module/mavlink/mavlink\_main.cpp file.  
 2. Add code in the corresponding position, as shown in the 1, 2, 3, 4 and 5 steps shown above.  
 **Turn off serial port flow control:**  
@@ -42,4 +42,4 @@ If the developer is using px4-1.7.3 version, there is need to modify original fi
 ![Modify boot file](../../.gitbook/assets/Modify%20boot%20file.png) 1.find firmware/ROMFS/px4fmu\_common/init.d/rcS file.  
 2. add the code at the corresponding location, as shown in the red area above.
 
-1
+
