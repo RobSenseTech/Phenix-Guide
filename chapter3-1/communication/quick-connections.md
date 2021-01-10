@@ -29,7 +29,7 @@ If the developer is using px4-1.7.3 version, there is need to modify original fi
 **Mavlink update:**  
 ![Mavlink update01](../../.gitbook/assets/Mavlink%20update01.png) 
 ![Mavlink update02|](../../.gitbook/assets/Mavlink%20update02.png)  
-<img src="https://github.com/RobSenseTech/Phenix-Guide/tree/master/.gitbook/assets/Mavlink%20update02.png" alt="Mavlink update02" width="100%">
+<img src="../../.gitbook/assets/Mavlink%20update02.png" alt="Mavlink update02" width="100%" />
 1.Find the firmware/SRC/module/mavlink/mavlink\_main.cpp file.  
 2. Add code in the corresponding position, as shown in the 1, 2, 3, 4 and 5 steps shown above.  
 **Turn off serial port flow control:**  
